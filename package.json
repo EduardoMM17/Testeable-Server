@@ -1,0 +1,24 @@
+{
+  "name": "testeable-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/test --recursive --slow=10000 --exit --timeout=5000",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "sinon": "^14.0.0"
+  },
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.4",
+    "uuid": "^9.0.0"
+  }
+}
